@@ -1,0 +1,137 @@
+// Color Themes System for Kids Calculator
+
+body.theme-rainbow {
+  --bg-gradient: linear-gradient(135deg, #ff9a9e 0%, #fecfef 40%, #a1c4fd 70%, #c2e9fb 100%);
+  --app-bg: rgba(255, 255, 255, 0.45);
+  --card-bg: rgba(255, 255, 255, 0.7);
+  --card-border: rgba(255, 255, 255, 0.85);
+  --text-color: #2d3748;
+  --text-muted: #718096;
+  --display-bg: #2d3748;
+  --display-text: #67e8f9;
+  --display-trace: #a7f3d0;
+  
+  // Button Colors
+  --btn-number-bg: linear-gradient(180deg, #ffffff 0%, #f0f4f8 100%);
+  --btn-number-text: #334155;
+  --btn-number-border: #cbd5e1;
+  --btn-number-shadow: #94a3b8;
+
+  --btn-operator-bg: linear-gradient(180deg, #ff7675 0%, #d63031 100%);
+  --btn-operator-text: #ffffff;
+  --btn-operator-shadow: #b21f1f;
+
+  --btn-action-bg: linear-gradient(180deg, #fdcb6e 0%, #e17055 100%);
+  --btn-action-text: #ffffff;
+  --btn-action-shadow: #d35400;
+
+  --btn-equals-bg: linear-gradient(180deg, #00b894 0%, #008968 100%);
+  --btn-equals-text: #ffffff;
+  --btn-equals-shadow: #005c45;
+
+  --accent-color: #ff7675;
+  --accent-glow: rgba(255, 118, 117, 0.4);
+  --badge-bg: #ffeaa7;
+}
+
+body.theme-cosmic {
+  --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 40%, #31104b 70%, #0f172a 100%);
+  --app-bg: rgba(15, 23, 42, 0.6);
+  --card-bg: rgba(30, 41, 59, 0.75);
+  --card-border: rgba(139, 92, 246, 0.4);
+  --text-color: #f8fafc;
+  --text-muted: #94a3b8;
+  --display-bg: #020617;
+  --display-text: #38bdf8;
+  --display-trace: #c084fc;
+
+  // Button Colors
+  --btn-number-bg: linear-gradient(180deg, #334155 0%, #1e293b 100%);
+  --btn-number-text: #f1f5f9;
+  --btn-number-border: #475569;
+  --btn-number-shadow: #0f172a;
+
+  --btn-operator-bg: linear-gradient(180deg, #8b5cf6 0%, #6d28d9 100%);
+  --btn-operator-text: #ffffff;
+  --btn-operator-shadow: #4c1d95;
+
+  --btn-action-bg: linear-gradient(180deg, #ec4899 0%, #be185d 100%);
+  --btn-action-text: #ffffff;
+  --btn-action-shadow: #831843;
+
+  --btn-equals-bg: linear-gradient(180deg, #06b6d4 0%, #0891b2 100%);
+  --btn-equals-text: #ffffff;
+  --btn-equals-shadow: #155e75;
+
+  --accent-color: #a855f7;
+  --accent-glow: rgba(168, 85, 247, 0.5);
+  --badge-bg: #4c1d95;
+}
+
+body.theme-dino {
+  --bg-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 50%, #ffe000 100%);
+  --app-bg: rgba(255, 255, 255, 0.4);
+  --card-bg: rgba(240, 253, 244, 0.8);
+  --card-border: rgba(134, 239, 172, 0.8);
+  --text-color: #14532d;
+  --text-muted: #15803d;
+  --display-bg: #052e16;
+  --display-text: #4ade80;
+  --display-trace: #fde047;
+
+  // Button Colors
+  --btn-number-bg: linear-gradient(180deg, #ffffff 0%, #e8f5e9 100%);
+  --btn-number-text: #166534;
+  --btn-number-border: #bbf7d0;
+  --btn-number-shadow: #86efac;
+
+  --btn-operator-bg: linear-gradient(180deg, #ea580c 0%, #c2410c 100%);
+  --btn-operator-text: #ffffff;
+  --btn-operator-shadow: #7c2d12;
+
+  --btn-action-bg: linear-gradient(180deg, #ca8a04 0%, #a16207 100%);
+  --btn-action-text: #ffffff;
+  --btn-action-shadow: #713f12;
+
+  --btn-equals-bg: linear-gradient(180deg, #16a34a 0%, #15803d 100%);
+  --btn-equals-text: #ffffff;
+  --btn-equals-shadow: #14532d;
+
+  --accent-color: #22c55e;
+  --accent-glow: rgba(34, 197, 94, 0.4);
+  --badge-bg: #fef08a;
+}
+
+body.theme-candy {
+  --bg-gradient: linear-gradient(135deg, #ff758c 0%, #ff7eb3 50%, #7afcff 100%);
+  --app-bg: rgba(255, 255, 255, 0.5);
+  --card-bg: rgba(255, 245, 248, 0.85);
+  --card-border: rgba(255, 182, 193, 0.9);
+  --text-color: #881337;
+  --text-muted: #9f1239;
+  --display-bg: #4c0519;
+  --display-text: #f472b6;
+  --display-trace: #38bdf8;
+
+  // Button Colors
+  --btn-number-bg: linear-gradient(180deg, #ffffff 0%, #fff1f2 100%);
+  --btn-number-text: #9f1239;
+  --btn-number-border: #fbcfe8;
+  --btn-number-shadow: #f472b6;
+
+  --btn-operator-bg: linear-gradient(180deg, #e11d48 0%, #be123c 100%);
+  --btn-operator-text: #ffffff;
+  --btn-operator-shadow: #881337;
+
+  --btn-action-bg: linear-gradient(180deg, #d946ef 0%, #c026d3 100%);
+  --btn-action-text: #ffffff;
+  --btn-action-shadow: #86198f;
+
+  --btn-equals-bg: linear-gradient(180deg, #0284c7 0%, #0369a1 100%);
+  --btn-equals-text: #ffffff;
+  --btn-equals-shadow: #0c4a6e;
+
+  --accent-color: #f43f5e;
+  --accent-glow: rgba(244, 63, 94, 0.4);
+  --badge-bg: #fde68a;
+}
